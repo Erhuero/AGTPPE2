@@ -4,15 +4,15 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="47691276215a482b8ab3930f1dd82d5f" Name="Diagram1">
-        <EntityTypeShape EntityType="BDDKNModel.CELLULE" Width="1.5" PointX="5.25" PointY="6.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDDKNModel.MATERIEL" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDDKNModel.NIVEAUURGENCETICKET" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDDKNModel.PROFIL" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDDKNModel.STATUT" Width="1.5" PointX="5.25" PointY="9.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDDKNModel.TICKETS" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDDKNModel.TYPECONNEXION" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDDKNModel.UTILISATEUR" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+      <Diagram DiagramId="47691276215a482b8ab3930f1dd82d5f" Name="Diagram1" ZoomLevel="70">
+        <EntityTypeShape EntityType="BDDKNModel.CELLULE" Width="1.5" PointX="10.125" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDKNModel.MATERIEL" Width="1.5" PointX="5.125" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDKNModel.NIVEAUURGENCETICKET" Width="1.5" PointX="0.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDKNModel.PROFIL" Width="1.5" PointX="0.5" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDKNModel.STATUT" Width="1.5" PointX="5.125" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDKNModel.TICKETS" Width="1.5" PointX="7.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDKNModel.TYPECONNEXION" Width="1.5" PointX="7.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDKNModel.UTILISATEUR" Width="1.5" PointX="2.75" PointY="0.5" IsExpanded="true" />
         <AssociationConnector Association="BDDKNModel.TICKETS_CELLULE2_FK" ManuallyRouted="false" />
         <AssociationConnector Association="BDDKNModel.MATERIEL_TYPECONNEXION1_FK" ManuallyRouted="false" />
         <AssociationConnector Association="BDDKNModel.MATERIEL_UTILISATEUR0_FK" ManuallyRouted="false" />
