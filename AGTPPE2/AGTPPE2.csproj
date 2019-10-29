@@ -148,6 +148,7 @@
     </Compile>
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MATERIELsController.cs" />
+    <Compile Include="Controllers\TICKETSController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -232,6 +233,12 @@
     <Content Include="Views\MATERIELs\Details.cshtml" />
     <Content Include="Views\MATERIELs\Edit.cshtml" />
     <Content Include="Views\MATERIELs\Index.cshtml" />
+    <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
+    <Content Include="Views\TICKETS\Create.cshtml" />
+    <Content Include="Views\TICKETS\Delete.cshtml" />
+    <Content Include="Views\TICKETS\Details.cshtml" />
+    <Content Include="Views\TICKETS\Edit.cshtml" />
+    <Content Include="Views\TICKETS\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

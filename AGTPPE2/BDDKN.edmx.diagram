@@ -4,24 +4,26 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="47691276215a482b8ab3930f1dd82d5f" Name="Diagram1" ZoomLevel="70">
+      <Diagram DiagramId="47691276215a482b8ab3930f1dd82d5f" Name="Diagram1" ZoomLevel="66">
         <EntityTypeShape EntityType="BDDKNModel.CELLULE" Width="1.5" PointX="10.125" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDDKNModel.MATERIEL" Width="1.5" PointX="5.125" PointY="3.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDDKNModel.NIVEAUURGENCETICKET" Width="1.5" PointX="0.5" PointY="0.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDDKNModel.PROFIL" Width="1.5" PointX="0.5" PointY="3.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDDKNModel.STATUT" Width="1.5" PointX="5.125" PointY="1.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDDKNModel.TICKETS" Width="1.5" PointX="7.5" PointY="0.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDDKNModel.TYPECONNEXION" Width="1.5" PointX="7.5" PointY="4.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDDKNModel.UTILISATEUR" Width="1.5" PointX="2.75" PointY="0.5" IsExpanded="true" />
-        <AssociationConnector Association="BDDKNModel.TICKETS_CELLULE2_FK" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="BDDKNModel.MATERIEL" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDKNModel.PROFIL" Width="1.5" PointX="0.625" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDKNModel.STATUT" Width="1.5" PointX="3.625" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDKNModel.TYPECONNEXION" Width="1.5" PointX="9.75" PointY="5.625" IsExpanded="true" />
         <AssociationConnector Association="BDDKNModel.MATERIEL_TYPECONNEXION1_FK" ManuallyRouted="false" />
-        <AssociationConnector Association="BDDKNModel.MATERIEL_UTILISATEUR0_FK" ManuallyRouted="false" />
-        <AssociationConnector Association="BDDKNModel.TICKETS_MATERIEL1_FK" ManuallyRouted="false" />
-        <AssociationConnector Association="BDDKNModel.UTILISATEUR_NIVEAUURGENCETICKET2_FK" ManuallyRouted="false" />
-        <AssociationConnector Association="BDDKNModel.UTILISATEUR_PROFIL0_FK" ManuallyRouted="false" />
-        <AssociationConnector Association="BDDKNModel.TICKETS_STATUT3_FK" ManuallyRouted="false" />
-        <AssociationConnector Association="BDDKNModel.TICKETS_UTILISATEUR0_FK" ManuallyRouted="false" />
-        <AssociationConnector Association="BDDKNModel.UTILISATEUR_UTILISATEUR1_FK" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="BDDKNModel.NIVEAUURGENCETICKET" Width="1.5" PointX="6.375" PointY="6.875" />
+        <EntityTypeShape EntityType="BDDKNModel.TICKETS" Width="1.5" PointX="12.375" PointY="2.75" />
+        <AssociationConnector Association="BDDKNModel.TICKETS_CELLULE3_FK" />
+        <AssociationConnector Association="BDDKNModel.TICKETS_MATERIEL2_FK" />
+        <AssociationConnector Association="BDDKNModel.TICKETS_NIVEAUURGENCETICKET1_FK" />
+        <AssociationConnector Association="BDDKNModel.TICKETS_STATUT4_FK" />
+        <EntityTypeShape EntityType="BDDKNModel.UTILISATEUR" Width="1.5" PointX="6.5" PointY="0.75" />
+        <AssociationConnector Association="BDDKNModel.MATERIEL_UTILISATEUR0_FK" />
+        <AssociationConnector Association="BDDKNModel.UTILISATEUR_PROFIL0_FK" />
+        <AssociationConnector Association="BDDKNModel.TICKETS_UTILISATEUR0_FK" />
+        <AssociationConnector Association="BDDKNModel.UTILISATEUR_UTILISATEUR1_FK" />
+      </Diagram>
+      <Diagram DiagramId="87f522491dc94ddd9ceca7d26ccb5b62" Name="Diagram2" >
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

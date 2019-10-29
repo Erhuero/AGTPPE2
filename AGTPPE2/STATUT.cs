@@ -21,6 +21,7 @@ namespace AGTPPE2
         }
     
         public string etatStatut { get; set; }
+        public string libelleStatut { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<TICKETS> TICKETS { get; set; }

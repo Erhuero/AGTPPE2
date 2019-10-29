@@ -30,11 +30,9 @@ namespace AGTPPE2
         public string gradeUtilisateur { get; set; }
         public int idProfil { get; set; }
         public int idUtilisateur_Autoreinscription { get; set; }
-        public string typeUrgence { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<MATERIEL> MATERIEL { get; set; }
-        public virtual NIVEAUURGENCETICKET NIVEAUURGENCETICKET { get; set; }
         public virtual PROFIL PROFIL { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<TICKETS> TICKETS { get; set; }

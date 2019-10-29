@@ -17,12 +17,13 @@ namespace AGTPPE2
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public NIVEAUURGENCETICKET()
         {
-            this.UTILISATEUR = new HashSet<UTILISATEUR>();
+            this.TICKETS = new HashSet<TICKETS>();
         }
     
         public string typeUrgence { get; set; }
+        public string libelleUrgence { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<UTILISATEUR> UTILISATEUR { get; set; }
+        public virtual ICollection<TICKETS> TICKETS { get; set; }
     }
 }

@@ -21,12 +21,14 @@ namespace AGTPPE2
         public System.DateTime dateCreationIncident { get; set; }
         public System.DateTime dateClotureIncident { get; set; }
         public int idUtilisateur { get; set; }
+        public string typeUrgence { get; set; }
         public string numeroSerieMateriel { get; set; }
         public string nomCellule { get; set; }
         public string etatStatut { get; set; }
     
         public virtual CELLULE CELLULE { get; set; }
         public virtual MATERIEL MATERIEL { get; set; }
+        public virtual NIVEAUURGENCETICKET NIVEAUURGENCETICKET { get; set; }
         public virtual STATUT STATUT { get; set; }
         public virtual UTILISATEUR UTILISATEUR { get; set; }
     }

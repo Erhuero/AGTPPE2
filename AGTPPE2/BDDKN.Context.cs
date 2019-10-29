@@ -27,11 +27,11 @@ namespace AGTPPE2
     
         public virtual DbSet<CELLULE> CELLULE { get; set; }
         public virtual DbSet<MATERIEL> MATERIEL { get; set; }
-        public virtual DbSet<NIVEAUURGENCETICKET> NIVEAUURGENCETICKET { get; set; }
         public virtual DbSet<PROFIL> PROFIL { get; set; }
         public virtual DbSet<STATUT> STATUT { get; set; }
-        public virtual DbSet<TICKETS> TICKETS { get; set; }
         public virtual DbSet<TYPECONNEXION> TYPECONNEXION { get; set; }
+        public virtual DbSet<NIVEAUURGENCETICKET> NIVEAUURGENCETICKET { get; set; }
+        public virtual DbSet<TICKETS> TICKETS { get; set; }
         public virtual DbSet<UTILISATEUR> UTILISATEUR { get; set; }
     }
 }
